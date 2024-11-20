@@ -1,0 +1,4 @@
+1.Intenta invocar un método que exista 
+ solo en una clase derivada utilizando 
+ una referencia de la clase base y observa 
+ el error de compilación

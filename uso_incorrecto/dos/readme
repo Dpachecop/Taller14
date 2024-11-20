@@ -1,0 +1,3 @@
+Crea una clase derivada que sobrescriba un método pero que no modifique
+realmente el comportamiento del método de la clase base, y discute
+por qué esto es una mala práctica.
