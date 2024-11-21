@@ -1,3 +1,36 @@
 Crea una clase derivada que sobrescriba un método pero que no modifique
 realmente el comportamiento del método de la clase base, y discute
 por qué esto es una mala práctica.
+
+
+
+public class Vehiculo {
+    public void encender() {
+        System.out.println("El vehículo está encendido.");
+    }
+}
+
+
+public class Auto extends Vehiculo {
+    @Override
+    public void encender() {
+        System.out.println("El vehículo está encendido.");
+    }
+}
+
+public class PruebaVehiculo {
+    public static void main(String[] args) {
+        Vehiculo miAuto = new Auto();
+        miAuto.encender();
+    }
+}
+ //En la clase Auto, sobrescribimos el método encender
+  //pero no cambiamos nada en la implementación; el mensaje
+  // es exactamente el mismo que en la clase base Vehiculo
+
+  //ESTO ES UNA MALA PRACTICA POR QUE:
+  /*
+ya que genera código redundante, falta de
+claridad y problemas de mantenimiento.
+Si el comportamiento de un método no cambia,
+ es mejor heredar directamente de la clase base. */

@@ -1,6 +1,5 @@
-package Taller14.Ejercicio4;
 
-public class Prueba{
+public class PruebaVehiculo{
     public static void main(String[] args) {
         Vehiculo vehiculo1 = new Coche();
         Vehiculo vehiculo2 = new Bicicleta();

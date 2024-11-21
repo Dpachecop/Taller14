@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "uso_incorrecto/uno",
+        "uso_incorrecto/dos",
+        "Ejercicio2",
+        "Ejercicio1",
+        "Ejercicio4"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}

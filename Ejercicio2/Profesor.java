@@ -1,4 +1,4 @@
-package Taller14.Ejercicio2;
+
 
 public class Profesor extends Persona {
     @Override
